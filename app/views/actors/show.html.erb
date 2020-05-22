@@ -1,0 +1,8 @@
+<%= @actor.name %>
+<%= @actor.age %>
+
+<p>Actors Worked With:</p>
+
+<% @actor.worked_with.each do |actor| %>
+  <%= actor.name%>
+  <%end%>

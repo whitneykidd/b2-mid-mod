@@ -13,4 +13,8 @@ class Actor < ApplicationRecord
   def self.names
     pluck(:name)
   end
+
+  def worked_with
+    # Actor.select(:name).where('movie_actors.id = actors.id')
+  end
 end
