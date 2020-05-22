@@ -7,7 +7,6 @@ RSpec.describe 'on a movies show page' do
     @courtney = @scream.actors.create(name: "Courtney Cox", age: 56)
     @neve = @scream.actors.create(name: "Neve Campbell", age: 42)
     @rose = @scream.actors.create(name: "Rose McGowan", age: 46)
-
     visit "/movies/#{@scream.id}"
   end
 

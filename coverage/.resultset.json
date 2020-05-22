@@ -217,6 +217,46 @@
           null
         ]
       },
+      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/spec/features/movie/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/spec/features/studio/index_spec.rb": {
         "lines": [
           1,
@@ -365,6 +405,6 @@
         ]
       }
     },
-    "timestamp": 1590168629
+    "timestamp": 1590169202
   }
 }
