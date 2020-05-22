@@ -8,3 +8,11 @@
 
   <p>Average Age: <%= @movie.actors.average_age.to_f %>
 </div>
+
+<div class="actor-search" >
+<%= form_tag "/movies/#{@movie.id}" do %>
+  <%= label_tag :actor_name, "Actor Name" %><br>
+  <%= text_field_tag :actor_name %><br>
+
+  <%= submit_tag "Submit" %>
+<%end%>
