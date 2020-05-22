@@ -206,12 +206,49 @@
         "lines": [
           1,
           1,
+          1,
           null
         ]
       },
       "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/spec/features/studio/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       },
@@ -238,6 +275,22 @@
           null
         ]
       },
+      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/models/movie_actor.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/models/actor.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/controllers/studios_controller.rb": {
         "lines": [
           1,
@@ -255,6 +308,6 @@
         ]
       }
     },
-    "timestamp": 1590161798
+    "timestamp": 1590162621
   }
 }

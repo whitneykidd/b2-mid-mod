@@ -4,7 +4,7 @@ RSpec.describe 'on the studio index page' do
   it 'can see a list of studios with their movie names underneath' do
     mgm = Studio.create(name:"MGM", location:"Hollywood")
     lionsgate = Studio.create(name:"Lions Gate", location:"LA")
-    space_jam = Movie.create(title:"Space Jame", year: 1993, genre:"Comedy", studio_id: mgm.id)
+    space_jam = Movie.create(title:"Space Jam", year: 1993, genre:"Comedy", studio_id: mgm.id)
     scream = Movie.create(title:"Scream", year: 1998, genre:"Horror", studio_id: mgm.id)
     old_school = Movie.create(title:"Old School", year: 2001, genre:"Comedy", studio_id: lionsgate.id)
 

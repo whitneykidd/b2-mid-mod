@@ -2,9 +2,9 @@
 
 <% @studios.each do |studio| %>
   <div class="studio-<%= studio.id %>" >
-  <%= studio.name %><br>
-  <b> Movies:</b><br>
+  <%= studio.name %><br/>
+  <b> Movies:</b><br/>
   <% studio.movies.each do |movie| %>
-    <%= movie.title %>
+    <%= movie.title %><br/>
   <%end%></div>
   <%end%>
