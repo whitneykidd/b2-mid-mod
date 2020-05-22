@@ -10,14 +10,14 @@ RSpec.describe 'on the studio index page' do
 
     visit '/studios'
 
-    within ".studio-mgm.id" do
+    within(".studio-#{mgm.id}") do
       expect(page).to have_content(mgm.name)
       expect(page).to have_content(space_jam.title)
       expect(page).to have_content(scream.title)
       expect(page).to have_no_content(old_school.title)
     end
 
-    within ".studio-lionsgate.id" do
+    within(".studio-#{lionsgate.id}") do
       expect(page).to have_content(lionsgate.name)
       expect(page).to have_content(old_school.title)
       expect(page).to have_no_content(scream.title)

@@ -237,8 +237,24 @@
           1,
           null
         ]
+      },
+      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/controllers/studios_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1590161333
+    "timestamp": 1590161798
   }
 }
