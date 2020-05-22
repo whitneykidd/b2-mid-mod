@@ -9,4 +9,8 @@ class Actor < ApplicationRecord
   def self.average_age
     average(:age)
   end
+
+  def self.names
+    pluck(:name)
+  end
 end

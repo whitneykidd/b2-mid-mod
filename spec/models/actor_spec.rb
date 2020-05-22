@@ -16,5 +16,9 @@ RSpec.describe Actor do
     it '#average_age' do
       expect(@actors.average_age).to eq(48)
     end
+
+    it '#names' do
+      expect(@actors.names).to eq(["Courtney Cox", "Neve Campbell", "Rose McGowan"])
+    end
   end
 end
