@@ -14,7 +14,7 @@
       <img src="./assets/0.11.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2020-05-22T09:50:21-06:00">2020-05-22T09:50:21-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2020-05-22T10:18:12-06:00">2020-05-22T10:18:12-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -30,7 +30,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.01
+         1.07
        </span>
     </span> hits/line
     )
@@ -39,12 +39,12 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>22</b> files in total.
+    <b>24</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>78</b> relevant lines,
-    <span class="green"><b>78</b> lines covered</span> and
+    <b>97</b> relevant lines,
+    <span class="green"><b>97</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -81,6 +81,17 @@
         </tr>
       
         <tr class="t-file">
+          <td class="strong t-file__name"><a href="#6839e22aa7c6fa06c8a809e1958d938d4dd2e936" class="src_link" title="app/controllers/movies_controller.rb">app/controllers/movies_controller.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>5</td>
+          <td>3</td>
+          <td>3</td>
+          <td>0</td>
+          <td>1.0</td>
+          
+        </tr>
+      
+        <tr class="t-file">
           <td class="strong t-file__name"><a href="#08ca69dd9244b0ec188c9d9219a6880bcbc08557" class="src_link" title="app/controllers/studios_controller.rb">app/controllers/studios_controller.rb</a></td>
           <td class="green strong t-file__coverage">100.0 %</td>
           <td>5</td>
@@ -105,11 +116,11 @@
         <tr class="t-file">
           <td class="strong t-file__name"><a href="#ebc3487c242b7f18c5b0fe2ed2d49c43095b0f59" class="src_link" title="app/models/actor.rb">app/models/actor.rb</a></td>
           <td class="green strong t-file__coverage">100.0 %</td>
-          <td>4</td>
-          <td>3</td>
-          <td>3</td>
+          <td>12</td>
+          <td>7</td>
+          <td>7</td>
           <td>0</td>
-          <td>1.0</td>
+          <td>1.29</td>
           
         </tr>
       
@@ -311,6 +322,17 @@
           
         </tr>
       
+        <tr class="t-file">
+          <td class="strong t-file__name"><a href="#d9f32b6bbc5d5921e630be48aba7a574e81646c9" class="src_link" title="spec/models/actor_spec.rb">spec/models/actor_spec.rb</a></td>
+          <td class="green strong t-file__coverage">100.0 %</td>
+          <td>21</td>
+          <td>12</td>
+          <td>12</td>
+          <td>0</td>
+          <td>1.33</td>
+          
+        </tr>
+      
     </tbody>
   </table>
 </div>
@@ -377,6 +399,92 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="6839e22aa7c6fa06c8a809e1958d938d4dd2e936">
+  <div class="header">
+    <h3>app/controllers/movies_controller.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>3</b> relevant lines.
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class MoviesController &lt; ApplicationController</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def show</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    @movie = Movie.find(params[:id])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="5">
             
             
 
@@ -544,8 +652,8 @@
     
 
     <div class="t-line-summary">
-      <b>3</b> relevant lines.
-      <span class="green"><b>3</b> lines covered</span> and
+      <b>7</b> relevant lines.
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -591,6 +699,94 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def self.order_by_age</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="6">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    order(:age)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def self.average_age</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="10">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    average(:age)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
             
             
 
@@ -3399,6 +3595,268 @@
             
 
             <code class="ruby"># And underneath each studio, I see the names of all of its movies.</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="d9f32b6bbc5d5921e630be48aba7a574e81646c9">
+  <div class="header">
+    <h3>spec/models/actor_spec.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>12</b> relevant lines.
+      <span class="green"><b>12</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &#39;rails_helper&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="3">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">RSpec.describe Actor do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  before(:each) do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="5">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    @courtney = Actor.create(name: &quot;Courtney Cox&quot;, age: 56)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="6">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    @neve = Actor.create(name: &quot;Neve Campbell&quot;, age: 42)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="7">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    @rose = Actor.create(name: &quot;Rose McGowan&quot;, age: 46)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="8">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    @actors = Actor.all</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="11">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  describe &#39;methods&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &#39;#order_by_age&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(@actors.order_by_age).to eq([@neve, @rose, @courtney])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="14">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="17">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">   it &#39;#average_age&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(@actors.average_age).to eq(48)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="21">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
           </li>
         </div>
       

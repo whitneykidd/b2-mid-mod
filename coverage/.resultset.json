@@ -252,14 +252,55 @@
           null
         ]
       },
-      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/models/studio.rb": {
+      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/spec/models/actor_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/models/actor.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/models/application_record.rb": {
+      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/models/studio.rb": {
         "lines": [
           1,
           1,
@@ -283,15 +324,7 @@
           null
         ]
       },
-      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/models/actor.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/controllers/studios_controller.rb": {
+      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/controllers/movies_controller.rb": {
         "lines": [
           1,
           1,
@@ -306,8 +339,17 @@
           1,
           null
         ]
+      },
+      "/Users/whitney/turing/2module/projects/ic/b2-mid-mod/app/controllers/studios_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1590162621
+    "timestamp": 1590164292
   }
 }
