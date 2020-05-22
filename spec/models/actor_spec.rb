@@ -14,7 +14,7 @@ RSpec.describe Actor do
     end
 
     it '#average_age' do
-      expect(@actors.average_age).to eq(48)
+      expect(@actors.average_age.to_f.round).to eq(48)
     end
 
     it '#names' do
